@@ -33,33 +33,34 @@ Sakila Database
 📊 Problems Solved
 🌍 World Database Analysis
 
-Country with Maximum Population
+1️⃣ Country with Maximum Population
 Used sorting and aggregate functions to identify the most populated country.
 
-Total Population of Cities per Country
+2️⃣ Total Population of Cities per Country
 Applied GROUP BY with SUM() to calculate combined city populations for each country.
 
-Top 3 Countries by Population Density
+3️⃣ Top 3 Countries by Population Density
 Calculated population density using a derived formula:
 
 Population Density = Population / Surface Area
+
 Then ranked countries to find the top 3.
 
 🎬 Sakila Database Analysis
 
-Customer with the Highest Number of Rentals
+4️⃣ Customer with the Highest Number of Rentals
 Used joins and grouping to identify the most active customer.
 
-Month with the Most Rentals
+5️⃣ Month with the Most Rentals
 Extracted month from rental dates and aggregated rental counts.
 
-Total Revenue Generated Per Day
+6️⃣ Total Revenue Generated Per Day
 Summed daily payments to analyze revenue trends.
 
-Store with the Highest Total Revenue
+7️⃣ Store with the Highest Total Revenue
 Joined store, rental, and payment tables to compare store performance.
 
-Customers Who Made Exactly 5 Payments
+8️⃣ Customers Who Made Exactly 5 Payments
 Used GROUP BY and HAVING to filter customers based on payment count.
 
 🧠 Key SQL Concepts Practiced
@@ -71,7 +72,12 @@ SELECT, WHERE, ORDER BY
 GROUP BY and HAVING
 
 Aggregate functions:
-SUM(), COUNT(), MAX()
+
+SUM()
+
+COUNT()
+
+MAX()
 
 Table joins
 
